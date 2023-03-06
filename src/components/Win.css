@@ -1,0 +1,111 @@
+
+.header-top {
+  text-align: center;
+}
+.header-top>h1>i{
+    font-size: 32px;
+    line-height: 0px;
+    padding-top: 0px;
+}
+.header-top>h1{
+    transform: rotate(-5deg);
+}
+.addBg{
+  z-index: -5;
+  background-image: url("/public/images/footerBg.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 64vh;
+}
+
+.next{
+  position: relative;
+  color: white;
+  margin-top: 15%;
+  background-color: 9C102A;
+  display: flex;
+  flex-direction: column;
+  line-height: 155%;
+  color: white;
+  text-transform: capitalize;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.next::after{
+  z-index: -1;
+}
+.right {
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.right h4{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: right;
+  line-height: normal;
+}
+.right>h2{
+  color: white;
+  line-height: 100%;
+  font-size: 25px;
+  
+}
+.right h5{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-stretch: ultra-condensed;
+  font-weight: 100;
+}
+.right button {
+  background-color: white;
+  color: #9C102A;
+  padding: 10px 15px;
+  border-radius: 8px;
+    font-size: 15px;
+    border: 1px solid #9C102A;
+    box-shadow: 0 0 0 2px #fff
+}
+.bottom1{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+}
+
+.text2{
+  /* justify-content: flex-end;
+  align-items: flex-end; */
+  margin-right: 10px;
+  padding-top: 50px;
+ 
+}
+.text2>h4{
+  padding-top: 10px;
+  text-align: right;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 110%;
+}
+.text2>h2{
+   text-align: right;
+   font-family: 'Roboto', sans-serif;
+   font-size: 30px;
+}
+.endd>h6{
+  text-align: center;
+  font-size: 17px;
+  padding-inline: 8px;
+  font-weight: 100;
+}
+#mid {
+  margin: 5%;
+}
+@media screen and (min-width: 500px) {
+  .right {
+    text-align: center;
+    padding-right: 5%;
+  }
+}

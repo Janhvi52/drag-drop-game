@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Fjalla+One&family=Outfit&family=Permanent+Marker&family=Roboto:wght@100;400&display=swap");
+
+
+.diagonal{
+    padding-block: 10rem;
+  margin-top: 8%;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+
+}
+.header-next1{
+  z-index: -5;
+  background-image: url("/public/images/footerBg.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+
+}
+.message{
+  color: white;
+}
+.message>a>button{
+  background-color: white;
+   color: #9C102A;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+     border: 1px solid #9C102A;
+     box-shadow: 0 0 0 2px #fff
+}
+.message>h4{
+    font-family: 'Roboto Condensed', sans-serif;
+  font-size: 33px;
+padding: 10px;
+font-weight: 100;
+}
+@media screen and (max-height: 700px) {
+  .message>h4{
+  font-size: 25px;
+padding: 10px;
+font-weight: 100;
+}
+}

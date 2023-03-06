@@ -1,0 +1,122 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(./assets/texturepaper.jpg);
+}
+.App {
+  text-align: center;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.first-one {
+  position: absolute;
+  left: -160px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.first-one > button {
+  background-color: #9c102a;
+  color: white;
+  position: absolute;
+  bottom: -63px;
+  right: 140px;
+  padding: 8px 40px;
+  border-radius: 8px;
+  font-size: 15px;
+  border: 1px solid #9c102a;
+  box-shadow: 0 0 0 2px #ece7e8, 0 0 0 4px #9c102a;
+  margin: 5%;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  align-items: flex-end;
+  font-size: large;
+  max-width: 800px;
+  margin: auto;
+  right: 20px;
+  position: absolute;
+}
+.header {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.app-container {
+  margin-top: 10px;
+}
+.head-image {
+  position: relative;
+}
+.text {
+  position: absolute;
+  top: 0.5%;
+  left: 40%;
+}
+.rule {
+  color: gray;
+}
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: 17px;
+  }
+  .text {
+    position: absolute;
+    top: 0.5%;
+    left: 25%;
+  }
+
+  .App-intro {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.garnish {
+  display: flex;
+}
+.inside{
+  font-family: "flood-std", sans-serif;
+  margin-bottom: 25px;
+}
+.logo {
+  text-align: center;
+}
+.logo>h4{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  color: rgb(75, 75, 75);
+}
+.challenge-text {
+  padding-bottom: 5%;
+  font-family: "flood-std", sans-serif;
+  font-size: 11px;
+  transform: rotate(-5deg);
+}
+.grab-text {
+  font-family: "flood-std", sans-serif;
+  font-size: 20px;
+  color: rgb(25, 153, 204);
+}
+.grab-text-WIN {
+  font-family: "flood-std", sans-serif;
+  font-size: 35px;
+  color: rgb(25, 153, 204);
+  transform: rotate(-5deg);
+}

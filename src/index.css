@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Outfit&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Outfit&family=Permanent+Marker&display=swap');
+#root{
+  overflow-x: hidden;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.App{
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+.pictures{
+  display: flex;
+  flex-direction: column;
+}
+.pictures>div{
+  padding: 1%;
+}
+.main{
+  display: flex;
+}
+.wrap1{
+  display: flex;
+  flex-direction: row;
+}
+.pictures4{
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+.pictures3{
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+.wrap2{
+  display: flex;
+  flex-direction: row;
+}
+
+.pictures6{
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+.pictures5{
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+.board{
+  padding-top: 1.5%;
+  color: rgb(221, 204, 204);
+}
+.header{
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.h2{
+  font-style: italic;
+}

@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&family=Outfit&display=swap);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url(./assets/texturepaper.jpg);
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.first{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  
+  font-size: large;
+  max-width: 800px;
+  margin: auto;
+}
+
+
+.header{
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.app-container {
+  margin-top: 10px;
+}
+
+.head-image{
+  position: relative;
+  
+}
+.text{
+  position: absolute;
+  top: 0.5%;
+  left: 40%;
+}

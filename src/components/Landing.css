@@ -1,0 +1,150 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+span {
+  color: #9c102a;
+}
+h4 {
+  padding-top: 1.4%;
+  font-weight: 700;
+  font-family: "flood-std", sans-serif;
+  text-align: center;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/texturepaper.jpg") no-repeat;
+}
+
+i {
+  color: rgb(16, 132, 179);
+  font-family: "flood-std", sans-serif;
+}
+h1 {
+  color: #9c102a;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 50px;
+}
+.image-text {
+  bottom: 0px;
+}
+.bottom-center {
+  align-self: center;
+}
+h5 {
+  font-size: 18px;
+  font-weight: 700;
+}
+.mainn {
+  position: relative;
+  height: 100vh;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+.inputNumber {
+  padding-inline: 10px;
+  height: 40px;
+  width: 90%;
+  border-radius: 8px;
+}
+.n4{
+  justify-content: center;
+  text-align:center;
+  margin: 20px 10px 15px 10px;
+}
+.n6 {
+  align-items: flex-end;
+  justify-content: start;
+  text-align: start;
+}
+
+.upper-part {
+  align-items: flex-start;
+}
+.pleaseConfirm {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-stretch: 'ultra-condensed';
+  font-weight: 600;
+  font-size: 11px;
+  color: #9c102a;
+  margin-top: 10px;
+  display: flex;
+  justify-content:flex-start;
+}
+h1 > h6 {
+  font-weight: 200;
+  font-size: small;
+  font-style: italic;
+}
+h1 > h6 > i {
+  color: black;
+}
+.header-next {
+  color: rgb(50, 50, 50);
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-stretch: 'ultra-condensed';
+  font-size: 16px;
+}
+.landingImage {
+  bottom: 0;
+  max-height: max-content;
+  position: absolute;
+  left: -15px;
+  height: 50vh;
+  width: 100%;
+  z-index: -1;
+}
+.button-next {
+  background-color: #9c102a;
+  color: white;
+  padding: 8px 40px;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #9c102a;
+  box-shadow: 0 0 0 2px #ece7e8, 0 0 0 4px #9c102a;
+  margin-top: 15px;
+}
+input[type="number"] {
+  padding: 7px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 2px solid rgb(90, 178, 236);
+}
+input[type="number"]:focus {
+  outline: none;
+  border: 2px solid rgb(50, 162, 237);
+}
+.labelForMobileNo{
+  color: #9c102a;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-stretch: 'ultra-condensed';
+  font-size: 18px;
+  font-weight: 100;
+}
+input[type="checkbox"] {
+  border-radius: 15px;
+  accent-color: #9c102a;
+  margin-right: 5px;
+  height: 15px;
+  width: 15px;
+}
+@media screen and (min-width: 500px) {
+  .mainn {
+    align-items: center;
+  }
+  .landingImage {
+    height: auto;
+    width: auto;
+  }
+}
+@media screen and (min-height: 680px) {
+  .n4 {
+    margin: 40px 5px;
+  }
+}
